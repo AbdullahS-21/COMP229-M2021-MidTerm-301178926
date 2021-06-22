@@ -1,5 +1,7 @@
 <%- include('../partials/header.ejs'); %>
 
+<!-- Mid Term Test - Abdullah Sheikh - 301178926 -->
+
     <!-- MAIN CONTENT -->
     <div class="container">
       <div class="row">
@@ -32,12 +34,12 @@
                   <td class="text-center"><%= books[count].Genre %></td>
 
                   <td class="text-center">
-                      <a href="/books/<%=books[count].id%>"><i class="fas fa-edit"></i></a>
+                      <a class="btn btn-primary btn-sm edit" href="/books/<%=books[count].id%>"><i class="fas fa-edit fa-sm"></i>edit</a>
       
                   </td>
 
                   <td class="text-center">
-                  <a href="/books/delete/<%=books[count].id%>" class="delete"><i class="fas fa-trash"></i></a>
+                  <a class="btn btn-danger btn-sm delete" href="/books/delete/<%=books[count].id%>" class="delete"><i class="fas fa-trash-alt fa-sm"></i>delete</a>
                   </td>
                 </tr>
                 <% } %>

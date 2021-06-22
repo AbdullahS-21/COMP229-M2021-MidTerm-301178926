@@ -1,4 +1,7 @@
 //IIFE -- Immediately Invoked Function Expression
+
+// Mid Term Test - Abdullah Sheikh - 301178926 
+
 "use strict";
 
 (function(){
